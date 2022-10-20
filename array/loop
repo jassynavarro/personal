@@ -36,3 +36,19 @@ public class App {
         }
     }
 }
+
+public class App {
+
+    public static void main(String[] args) {
+    // reverse
+        String [][] Array_3x3 = {{"A", "B", "C"}, {"D", "E", "F"}, {"G", "H", "I"}};
+
+        for (int row = Array_3x3.length - 1; row >= 0; row--) {
+            System.out.println(" ");    
+            for (int column = Array_3x3.length - 1; column >= 0; column--) {
+                
+                System.out.print(Array_3x3[row][column]);
+            }
+        }
+    }
+}

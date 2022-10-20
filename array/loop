@@ -20,3 +20,19 @@ public class App {
 
     }
 }
+
+public class App {
+
+    public static void main(String[] args) {
+    
+        String [][] Array_3x3 = {{"A", "B", "C"}, {"D", "E", "F"}, {"G", "H", "I"}};
+
+        for (int row = 0; row < Array_3x3.length; row++) {
+            System.out.println(" ");    
+            for (int column = 0; column < Array_3x3.length; column++) {
+                
+                System.out.print(Array_3x3[row][column]);
+            }
+        }
+    }
+}

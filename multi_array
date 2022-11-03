@@ -1,0 +1,336 @@
+public class Exercise {
+    public static void main(String[] args) throws Exception {
+  
+        String[][] mdArray = {{"S", "L", "A", "M"}, {"T", "I", "L", "E"}, {"E", "A", "T", "S"}, {"P", "R", "O", "S"}};
+
+        System.out.println("");
+        System.out.println("1. ");
+        for (int i = 0; i < mdArray.length; i++) {
+            for (int j = 0; j < mdArray.length; j++) {
+                if ((i == 0 && j == 0) || (i == 0 && j == 1) || (i == 0 && j == 2)|| (i == 0 && j == 3)) {
+                    System.out.print(mdArray[i][j]);
+                }
+            }
+        }
+
+        System.out.println("");
+
+        System.out.println("");
+        System.out.println("2. ");
+        for (int i = 0; i < mdArray.length; i++) {
+            for (int j = 0; j < mdArray.length; j++) {
+                if ((i == 1 && j == 0) || (i == 1 && j == 1) || (i == 1 && j == 2)|| (i == 1 && j == 3)) {
+                    System.out.print(mdArray[i][j]);
+                }
+            }
+        }
+
+        System.out.println("");
+
+        System.out.println("");
+        System.out.println("3. ");
+        for (int i = 0; i < mdArray.length; i++) {
+            for (int j = 0; j < mdArray.length; j++) {
+                if ((i == 2 && j == 0) || (i == 2 && j == 1) || (i == 2 && j == 2)|| (i == 2 && j == 3)) {
+                    System.out.print(mdArray[i][j]);
+                }
+            }
+        }
+
+        System.out.println("");
+
+        System.out.println("");
+        System.out.println("4. ");
+        for (int i = 0; i < mdArray.length; i++) {
+            for (int j = 0; j < mdArray.length; j++) {
+                if ((i == 2 && j == 0) || (i == 2 && j == 1) || (i == 2 && j == 2)) {
+                    System.out.print(mdArray[i][j]);
+                }
+            }
+        }
+
+        System.out.println("");
+        
+        System.out.println("");
+        System.out.println("5. ");
+        for (int i = 0; i < mdArray.length; i++) {
+            for (int j = 0; j < mdArray.length; j++) {
+                if ((i == 3 && j == 0) || (i == 3 && j == 1) || (i == 3 && j == 2)|| (i == 3 && j == 3)) {
+                    System.out.print(mdArray[i][j]);
+                }
+            }
+        }
+
+        System.out.println("");
+        
+        System.out.println("");
+        System.out.println("6. ");
+        for (int i = 0; i < mdArray.length; i++) {
+            for (int j = 0; j < mdArray.length; j++) {
+                if ((i == 3 && j == 0) || (i == 3 && j == 1) || (i == 3 && j == 2)) {
+                    System.out.print(mdArray[i][j]);
+                }
+            }
+        }
+
+        System.out.println("");
+        
+        System.out.println("");
+        System.out.println("7. ");
+        for (int i = 0; i < mdArray.length; i++) {
+            for (int j = 0; j < mdArray.length; j++) {
+                if ((i == 0 && j == 0) || (i == 0 && j == 1) || (i == 0 && j == 2) || (i == 0 && j == 3)) {
+                    System.out.println(mdArray[j][i]);
+                }
+            }
+        }
+
+        System.out.println("");
+        System.out.println("8. ");
+        for (int i = 0; i < mdArray.length; i++) {
+            for (int j = 0; j < mdArray.length; j++) {
+                if ((i == 1 && j == 0) || (i == 1 && j == 1) || (i == 1 && j == 2) || (i == 1 && j == 3)) {
+                    System.out.println(mdArray[j][i]);
+                }
+            }
+        }
+
+        System.out.println("");
+        System.out.println("9. ");
+        for (int i = 0; i < mdArray.length; i++) {
+            for (int j = 0; j < mdArray.length; j++) {
+                if ((i == 2 && j == 0) || (i == 2 && j == 1) || (i == 2 && j == 2) || (i == 2 && j == 3)) {
+                    System.out.println(mdArray[j][i]);
+                }
+            }
+        }
+
+        System.out.println("");
+        System.out.println("10. ");
+        for (int i = 0; i < mdArray.length; i++) {
+            for (int j = 0; j < mdArray.length; j++) {
+                if ((i == 3 && j == 0) || (i == 3 && j == 1) || (i == 3 && j == 2) || (i == 3 && j == 3)) {
+                    System.out.println(mdArray[j][i]);
+                }
+            }
+        }
+
+        System.out.println("");
+        System.out.println("11. ");
+        for (int i = 0; i < mdArray.length; i++) {
+            for (int j = 0; j < mdArray.length; j++) {
+                if ((i == 0 && j == 1) || (i == 0 && j == 2) || (i == 0 && j == 3)) {
+                    System.out.print(mdArray[i][j]);
+                }
+            }
+        }
+
+        System.out.println("");
+
+        System.out.println("");
+        System.out.println("12. ");
+        for (int i = 3; i < mdArray.length; i--) {
+            for (int j = 3; j < mdArray.length; j--) {
+                if ((i == 0 && j == 0) || (i == 1 && j == 0) || (i == 2 && j == 0) || (i == 3 && j == 0)) {
+                    System.out.println(mdArray[i][j]);
+                }
+            }
+        }
+
+        System.out.println("");
+
+        System.out.println("");
+        System.out.println("13. ");
+        for (int i = 3; i < mdArray.length; i--) {
+            for (int j = 3; j < mdArray.length; j--) {
+                if ((i == 1 && j == 0) || (i == 2 && j == 0) || (i == 3 && j == 0)) {
+                    System.out.println(mdArray[i][j]);
+                }
+            }
+        }
+
+        System.out.println("");
+
+        System.out.println("");
+        System.out.println("14. ");
+        for (int i = 0; i < mdArray.length; i++) {
+            for (int j = 0; j < mdArray.length; j++) {
+                if ((i == 1 && j == 0) || (i == 1 && j == 1) || (i == 1 && j == 2)) {
+                    System.out.print(mdArray[i][j]);
+                }
+            }
+        }
+
+        System.out.println("");
+
+        System.out.println("");
+        System.out.println("15. ");
+        for (int i = 3; i < mdArray.length; i--) {
+            for (int j = 3; j < mdArray.length; j--) {
+                if ((i == 2 && j == 1) || (i == 1 && j == 1) || (i == 0 && j == 1)) {
+                    System.out.println(mdArray[i][j]);
+                }
+            }
+        }
+
+        System.out.println("");
+
+        System.out.println("");
+        System.out.println("16. ");
+        for (int i = 3; i < mdArray.length; i--) {
+            for (int j = 3; j < mdArray.length; j--) {
+                if ((i == 1 && j == 3) || (i == 2 && j == 3) || (i == 3 && j == 3)) {
+                    System.out.println(mdArray[i][j]);
+                }
+            }
+        }
+
+        System.out.println("");
+
+        System.out.println("");
+        System.out.println("17. ");
+        for (int i = 0; i < 4; i++) {
+            System.out.println("");
+            for (int j = mdArray.length; j >= 0; j--) {
+                if (i == 0 && j == 3) {
+                    System.out.print("      " + mdArray[i][j] + "      ");
+                } 
+                if (i == 1 && j == 2){
+                    System.out.print("    " + mdArray[i][j] + "    ");
+                } 
+                if (i == 2 && j == 1){
+                    System.out.print("  " + mdArray[i][j] + "  ");
+                } 
+                if (i == 3 && j == 0){
+                    System.out.print("" + mdArray[i][j] + "");   
+                }           
+
+            }
+        }
+
+        System.out.println("");
+
+        System.out.println("");
+        System.out.println("18. ");
+        for (int i = 0; i < 4; i++) {
+            System.out.println("");
+            for (int j = mdArray.length; j >= 0; j--) {
+                if (i == 1 && j == 2) {
+                    System.out.print("      " + mdArray[i][j] + "      ");
+                } 
+                if (i == 2 && j == 1){
+                    System.out.print("    " + mdArray[i][j] + "    ");
+                } 
+                if (i == 3 && j == 0){
+                    System.out.print("  " + mdArray[i][j] + "  ");
+                }         
+
+            }
+        }
+
+        System.out.println("");
+
+        System.out.println("");
+        System.out.println("19. ");
+        for (int i = 0; i < 4; i++) {
+            System.out.println("");
+            for (int j = mdArray.length; j >= 0; j--) {
+                if (i == 1 && j == 0) {
+                    System.out.print("      " + mdArray[i][j] + "      ");
+                } 
+                if (i == 2 && j == 1){
+                    System.out.print("    " + mdArray[i][j] + "    ");
+                } 
+                if (i == 3 && j == 2){
+                    System.out.print("  " + mdArray[i][j] + "  ");
+                }         
+
+            }
+        }
+
+        System.out.println("");
+
+        System.out.println("");
+        System.out.println("20. ");
+        for (int i = 3; i < mdArray.length; i--) {
+            for (int j = 3; j < mdArray.length; j--) {
+                if ((i == 1 && j == 0) || (i == 1 && j == 1) || (i == 1 && j == 2)) {
+                    System.out.println(mdArray[i][j]);
+                }
+            }
+        }
+
+        System.out.println("");
+
+         System.out.println("");
+        System.out.println("21. ");
+        for (int i = 3; i < mdArray.length; i--) {
+            for (int j = 3; j < mdArray.length; j--) {
+                if ((i == 3 && j == 1) || (i == 2 && j == 1) || (i == 1 && j == 1) || (i == 0 && j == 1)) {
+                    System.out.println(mdArray[i][j]);
+                }
+            }
+        }
+
+        System.out.println("");
+        System.out.println("22. ");
+        for (int i = 3; i < mdArray.length; i--) {
+            for (int j = 3; j < mdArray.length; j--) {
+                if ((i == 1 && j == 0) || (i == 1 && j == 1) || (i == 1 && j == 2)) {
+                    System.out.println(mdArray[i][j]);
+                }
+            }
+        }
+
+        System.out.println("");
+        System.out.println("23. ");
+        for (int i = 3; i < mdArray.length; i--) {
+            for (int j = 3; j < mdArray.length; j--) {
+                if ((i == 0 && j == 1) || (i == 0 && j == 2) || (i == 0 && j == 3)) {
+                    System.out.print(mdArray[i][j]);
+                }
+            }
+        }
+
+        System.out.println("");
+
+        System.out.println("");
+        System.out.println("24. ");
+        for (int i = 0; i < 4; i++) {
+            System.out.println("");
+            for (int j = mdArray.length; j >= 0; j--) {
+                if (i == 1 && j == 2) {
+                    System.out.print("      " + mdArray[i][j] + "      ");
+                } 
+                if (i == 2 && j == 1){
+                    System.out.print("    " + mdArray[i][j] + "    ");
+                } 
+                if (i == 3 && j == 0){
+                    System.out.print("  " + mdArray[i][j] + "  ");
+                }         
+
+            }
+        }
+
+        System.out.println("");
+
+        System.out.println("");
+        System.out.println("25. ");
+        for (int i = 0; i < 4; i++) {
+            System.out.println("");
+            for (int j = mdArray.length; j >= 0; j--) {
+                if (i == 3 && j == 2) {
+                    System.out.print("      " + mdArray[i][j] + "      ");
+                } 
+                if (i == 2 && j == 1){
+                    System.out.print("    " + mdArray[i][j] + "    ");
+                } 
+                if (i == 1 && j == 0){
+                    System.out.print("  " + mdArray[i][j] + "  ");
+                }         
+
+            }
+        }
+        
+    }
+}

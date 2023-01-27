@@ -1,0 +1,52 @@
+package Intermediate_Programming;
+
+import java.util.Scanner;
+
+public class Attendance {
+
+	//Recursion method that counts the vowels in the user's given String.
+	static int countVowels(String str) {
+		
+		//variable responsible for storing the counted vowels.
+		int count = 0;
+		
+		//for loop to catch and count the vowels.
+		for(int i = 0; i < str.length(); i++) 
+		{
+			
+		//if condition for capturing UpperCase vowel character.
+			if (str.charAt(i) == 'A' || str.charAt(i) == 'E' || str.charAt(i) == 'I' || str.charAt(i) == 'O' || str.charAt(i) == 'U') {	
+		
+		//adds 1 to the captured index.
+			count++;
+			}
+			
+		//if condition for capturing LowerCase vowel character.
+			if (str.charAt(i) == 'a' || str.charAt(i) == 'e' || str.charAt(i) == 'i' || str.charAt(i) == 'o' || str.charAt(i) == 'u') {
+			
+			count++;
+			}
+			
+		}
+		//when the loop stops it counts the stored number of vowel character and prints the final output.
+		return count;
+	}
+	
+	//Main method
+	public static void main(String[] args) {
+	
+	//Instantiate scanner and variable for the string input.
+		Scanner scan = new Scanner (System.in);
+		String vowels;
+	
+	//Print and Asks the String input of the user.
+		System.out.print("Input a String: ");
+		vowels = scan.next();
+		
+	//Prints the final output.
+		System.out.println("Number of vowel/s: " + countVowels(vowels));
+		
+		scan.close();
+	}
+	
+}
